@@ -43,7 +43,8 @@ The program has 4 main parts to it under the main comment block.
 * Each file is broken into sentences
 * Each sentence is run through the `indersting_words()` function
 * The `interesting_words()` function filters out words that are not interesting, taking the ones that are and adding to a list that is returned  
-  * For the filtering, each word in the sentence is tagged with their corresponding part-of-speech tag, 
+  * For the filtering, each word in the sentence is tagged with their corresponding part-of-speech tag, as well as being checked against the 'stop_words' that come with the 'nltk' library.
+   * The tags I consider interesting are in the `interesting_tags` list on line 40, 
 
 
 ### Walk through
