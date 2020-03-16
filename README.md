@@ -2,6 +2,8 @@
 
 This programs opens documents placed in the 'testDocs' directory, iterates through each one, selecting interesitng words and then creating an HTML file displaying the words, sentences and files they appear in that pops up in your browser.
 
+NOTE: the `output.html` file in the repository is mainly jsut for reference, this file contains the output that is generated from main.py and when you run the code you should get an identical file
+
 ## Getting Started
 
 ### Prerequisites 
